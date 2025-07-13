@@ -1,0 +1,2 @@
+peptide	HLA	immunogenicity
+WWGGWGGGGG	HLA-A*0201	1
