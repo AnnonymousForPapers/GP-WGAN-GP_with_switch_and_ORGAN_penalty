@@ -1,0 +1,109 @@
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+Method: Goal-directed_WGAN-GP
+Number of peptide sequences with 9 and 10 mers: 9986
+Number of unique peptide sequences: 6001
+Number of unique peptide sequences before removing: 6015
+outdir is ../../result_brain/Goal-directed_WGAN-GP/epoch1000/
+Method: WGAN-GP
+Number of peptide sequences with 9 and 10 mers: 9855
+Number of unique peptide sequences: 9796
+Number of unique peptide sequences before removing: 9941
+outdir is ../../result_brain/WGAN-GP/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_25
+Number of peptide sequences with 9 and 10 mers: 9799
+Number of unique peptide sequences: 9686
+Number of unique peptide sequences before removing: 9888
+outdir is ../../result_brain/Goal-directed_WGAN-GP_Gamma0_25/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_5
+Number of peptide sequences with 9 and 10 mers: 9986
+Number of unique peptide sequences: 9690
+Number of unique peptide sequences before removing: 9704
+outdir is ../../result_brain/Goal-directed_WGAN-GP_Gamma0_5/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_75
+Number of peptide sequences with 9 and 10 mers: 9994
+Number of unique peptide sequences: 7671
+Number of unique peptide sequences before removing: 7677
+outdir is ../../result_brain/Goal-directed_WGAN-GP_Gamma0_75/epoch1000/
+Method: Goal-directed_WGAN-GP_noRewardNet
+Number of peptide sequences with 9 and 10 mers: 9887
+Number of unique peptide sequences: 9858
+Number of unique peptide sequences before removing: 9973
+outdir is ../../result_brain/Goal-directed_WGAN-GP_noRewardNet/epoch1000/
+Method: Goal-directed_WGAN-GP_noSscale
+Number of peptide sequences with 9 and 10 mers: 9886
+Number of unique peptide sequences: 9671
+Number of unique peptide sequences before removing: 9786
+outdir is ../../result_brain/Goal-directed_WGAN-GP_noSscale/epoch1000/
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1
+Number of unique peptide sequences before removing: 1
+outdir is ../../result_brain/GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 9556
+Number of unique peptide sequences: 998
+Number of unique peptide sequences before removing: 1028
+outdir is ../../result_brain/GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1
+Number of unique peptide sequences before removing: 1
+outdir is ../../result_brain/GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+Method: Goal-directed_WGAN-GP_ORGAN
+Number of peptide sequences with 9 and 10 mers: 9996
+Number of unique peptide sequences: 9613
+Number of unique peptide sequences before removing: 9617
+outdir is ../../result_brain/Goal-directed_WGAN-GP_ORGAN/epoch1000/

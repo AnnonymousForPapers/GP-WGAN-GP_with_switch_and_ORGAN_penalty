@@ -1,0 +1,44 @@
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code_brain/Figures_in_paper/6_IC50_compare.py:172: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+Method: Goal-directed_WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 5189
+Method: WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 9379
+Method: Goal-directed_WGAN-GP_Gamma0_25
+Number of peptide sequences with IC$_50$ < 500: 8945
+Method: Goal-directed_WGAN-GP_Gamma0_5
+Number of peptide sequences with IC$_50$ < 500: 8837
+Method: Goal-directed_WGAN-GP_Gamma0_75
+Number of peptide sequences with IC$_50$ < 500: 7210
+Method: Goal-directed_WGAN-GP_noRewardNet
+Number of peptide sequences with IC$_50$ < 500: 8981
+Method: Goal-directed_WGAN-GP_noSscale
+Number of peptide sequences with IC$_50$ < 500: 8491
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 634
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: Goal-directed_WGAN-GP_ORGAN
+Number of peptide sequences with IC$_50$ < 500: 8929
