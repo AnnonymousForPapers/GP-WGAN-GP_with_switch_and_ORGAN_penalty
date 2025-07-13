@@ -1,0 +1,13 @@
+Best epoch for MolGAN: 816
+Best sum for MolGAN: 1.73801908493042
+Best epoch for MolGAN_Gamma0: 6
+Best sum for MolGAN_Gamma0: 1.6413729906082153
+Best epoch for MolGAN_Gamma0_ORGAN: 6
+Best sum for MolGAN_Gamma0_ORGAN: 1.6372478604316711
+
+Best imm for MolGAN: 0.8177065849304199
+Best unq for MolGAN: 0.9203125
+Best imm for MolGAN_Gamma0: 0.7226229906082153
+Best unq for MolGAN_Gamma0: 0.91875
+Best imm for MolGAN_Gamma0_ORGAN: 0.7231853604316711
+Best unq for MolGAN_Gamma0_ORGAN: 0.9140625

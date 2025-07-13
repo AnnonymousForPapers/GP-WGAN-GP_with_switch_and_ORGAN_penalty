@@ -1,0 +1,21 @@
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/2_Remove_placeholder_morethan2.py:33: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 6529
+Number of unique peptide sequences: 1222
+Number of unique peptide sequences before removing: 1734
+outdir is ../../result/GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1749
+Number of unique peptide sequences before removing: 1755
+outdir is ../../result/GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1688
+Number of unique peptide sequences before removing: 1695
+outdir is ../../result/GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/

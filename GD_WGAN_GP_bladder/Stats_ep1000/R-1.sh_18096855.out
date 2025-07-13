@@ -1,0 +1,11 @@
+outdir is ../../result/Goal-directed_WGAN-GP/epoch1000
+outdir is ../../result/WGAN-GP/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_25/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_5/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_75/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_noRewardNet/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_noSscale/epoch1000
+outdir is ../../result/GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000
+outdir is ../../result/GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor/epoch1000
+outdir is ../../result/GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN/epoch1000

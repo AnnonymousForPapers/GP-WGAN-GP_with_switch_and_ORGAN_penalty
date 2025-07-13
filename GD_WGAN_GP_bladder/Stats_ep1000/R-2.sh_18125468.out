@@ -1,0 +1,109 @@
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/2_Remove_placeholder_morethan2.py:40: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+Method: Goal-directed_WGAN-GP
+Number of peptide sequences with 9 and 10 mers: 9998
+Number of unique peptide sequences: 7730
+Number of unique peptide sequences before removing: 7733
+outdir is ../../result/Goal-directed_WGAN-GP/epoch1000/
+Method: WGAN-GP
+Number of peptide sequences with 9 and 10 mers: 9907
+Number of unique peptide sequences: 9907
+Number of unique peptide sequences before removing: 10000
+outdir is ../../result/WGAN-GP/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_25
+Number of peptide sequences with 9 and 10 mers: 9986
+Number of unique peptide sequences: 9986
+Number of unique peptide sequences before removing: 10000
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_25/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_5
+Number of peptide sequences with 9 and 10 mers: 9952
+Number of unique peptide sequences: 9919
+Number of unique peptide sequences before removing: 9968
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_5/epoch1000/
+Method: Goal-directed_WGAN-GP_Gamma0_75
+Number of peptide sequences with 9 and 10 mers: 9997
+Number of unique peptide sequences: 8139
+Number of unique peptide sequences before removing: 8142
+outdir is ../../result/Goal-directed_WGAN-GP_Gamma0_75/epoch1000/
+Method: Goal-directed_WGAN-GP_noRewardNet
+Number of peptide sequences with 9 and 10 mers: 9959
+Number of unique peptide sequences: 9958
+Number of unique peptide sequences before removing: 9999
+outdir is ../../result/Goal-directed_WGAN-GP_noRewardNet/epoch1000/
+Method: Goal-directed_WGAN-GP_noSscale
+Number of peptide sequences with 9 and 10 mers: 9976
+Number of unique peptide sequences: 9975
+Number of unique peptide sequences before removing: 9999
+outdir is ../../result/Goal-directed_WGAN-GP_noSscale/epoch1000/
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1
+Number of unique peptide sequences before removing: 1
+outdir is ../../result/GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 5316
+Number of unique peptide sequences: 1163
+Number of unique peptide sequences before removing: 2007
+outdir is ../../result/GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor/epoch1000/
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 1
+Number of unique peptide sequences before removing: 1
+outdir is ../../result/GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+Method: Goal-directed_WGAN-GP_ORGAN
+Number of peptide sequences with 9 and 10 mers: 9993
+Number of unique peptide sequences: 9934
+Number of unique peptide sequences before removing: 9942
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN/epoch1000/
