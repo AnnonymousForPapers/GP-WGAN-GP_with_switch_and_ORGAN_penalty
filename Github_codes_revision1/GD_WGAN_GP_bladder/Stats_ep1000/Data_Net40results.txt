@@ -1,0 +1,16 @@
+
+Method: Dataset
+# of sequences: 6232
+Average score: 1514.9131418485244
+Std score: 4195.268474320717
+Median score: 92.95
+Min. score: 1.2
+Max. score: 36013.0
+
+Method: Dataset_Brain
+# of sequences: 2454
+Average score: 98.34352078239608
+Std score: 154.10736838654756
+Median score: 39.4
+Min. score: 1.4
+Max. score: 1969.5

@@ -1,0 +1,168 @@
+
+Method: Dataset
+# of sequences: 6232
+Average score: 1459.1356578947368
+Std score: 4013.1673853461575
+Median score: 86.14
+Min. score: 1.31
+Max. score: 36044.61
+
+Method: random_generator
+# of sequences: 10000
+Average score: 27618.782573999924
+Std score: 13565.59513062848
+Median score: 30656.655
+Min. score: 3.28
+Max. score: 48809.61
+
+Method: WGAN-GP
+# of sequences: 9885
+Average score: 2109.679886697015
+Std score: 5237.897536489308
+Median score: 96.61
+Min. score: 1.53
+Max. score: 39311.22
+
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+# of sequences: 1123
+Average score: 9276.250623330357
+Std score: 11234.05482095175
+Median score: 4091.89
+Min. score: 1.55
+Max. score: 43804.68
+
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor_best
+# of sequences: 1123
+Average score: 9276.250623330357
+Std score: 11234.05482095175
+Median score: 4091.89
+Min. score: 1.55
+Max. score: 43804.68
+
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1
+Average score: 41702.2
+Std score: 0.0
+Median score: 41702.2
+Min. score: 41702.2
+Max. score: 41702.2
+
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_best
+# of sequences: 1
+Average score: 41702.2
+Std score: 0.0
+Median score: 41702.2
+Min. score: 41702.2
+Max. score: 41702.2
+
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1
+Average score: 41702.2
+Std score: 0.0
+Median score: 41702.2
+Min. score: 41702.2
+Max. score: 41702.2
+
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor_best
+# of sequences: 1
+Average score: 41702.2
+Std score: 0.0
+Median score: 41702.2
+Min. score: 41702.2
+Max. score: 41702.2
+
+Method: Goal-directed_WGAN-GP_Gamma0_25
+# of sequences: 9984
+Average score: 1483.5263741987183
+Std score: 4697.677685630875
+Median score: 33.075
+Min. score: 1.38
+Max. score: 45445.65
+
+Method: Goal-directed_WGAN-GP_Gamma0_5
+# of sequences: 9919
+Average score: 1134.1411654400654
+Std score: 3614.850166229733
+Median score: 36.78
+Min. score: 1.39
+Max. score: 40179.86
+
+Method: Goal-directed_WGAN-GP_Gamma0_75
+# of sequences: 8155
+Average score: 1163.3635573267948
+Std score: 3369.7450069594915
+Median score: 46.61
+Min. score: 1.49
+Max. score: 39107.59
+
+Method: Goal-directed_WGAN-GP
+# of sequences: 7751
+Average score: 2649.0648071216597
+Std score: 5978.615294147344
+Median score: 137.64
+Min. score: 1.86
+Max. score: 40964.75
+
+Method: Goal-directed_WGAN-GP_ORGAN
+# of sequences: 9923
+Average score: 405.8594406933381
+Std score: 1973.1407337181668
+Median score: 12.38
+Min. score: 1.52
+Max. score: 41429.67
+
+Method: Goal-directed_WGAN-GP_noRewardNet
+# of sequences: 9959
+Average score: 891.4849824279547
+Std score: 2890.565431774398
+Median score: 29.06
+Min. score: 1.36
+Max. score: 36915.28
+
+Method: Goal-directed_WGAN-GP_noSscale
+# of sequences: 9967
+Average score: 3631.998983646031
+Std score: 7404.272629188192
+Median score: 260.87
+Min. score: 1.63
+Max. score: 44616.41
+
+Method: Goal-directed_WGAN-GP_NoSwithORGAN
+# of sequences: 16
+Average score: 6087.1
+Std score: 1592.328035220758
+Median score: 6903.46
+Min. score: 3393.6
+Max. score: 8166.46
+
+Method: Goal-directed_WGAN-GP_LSTM
+# of sequences: 7193
+Average score: 27193.751331850486
+Std score: 7688.954458970564
+Median score: 28031.46
+Min. score: 279.17
+Max. score: 44627.52
+
+Method: Goal-directed_WGAN-GP_ORGAN_LSTM
+# of sequences: 9976
+Average score: 1248.9500842020861
+Std score: 4352.35618220708
+Median score: 19.845
+Min. score: 1.44
+Max. score: 45990.24
+
+Method: Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2
+# of sequences: 9981
+Average score: 2619.977169622284
+Std score: 6265.483349424093
+Median score: 104.63
+Min. score: 1.43
+Max. score: 46828.8
+
+Method: Goal-directed_WGAN-GP_TransformerNoMaskL2
+# of sequences: 7626
+Average score: 2189.758498557568
+Std score: 5021.9354025528555
+Median score: 117.255
+Min. score: 1.74
+Max. score: 40756.97

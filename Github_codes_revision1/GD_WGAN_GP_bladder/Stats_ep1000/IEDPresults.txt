@@ -1,0 +1,168 @@
+
+Method: Dataset
+# of sequences: 6232
+Average score: 0.03683879172015436
+Std score: 0.1847803298125178
+Median score: 0.05075
+Min. score: -0.74873
+Max. score: 0.60673
+
+Method: random_generator
+# of sequences: 10000
+Average score: 0.016727112000000093
+Std score: 0.21602034925260966
+Median score: 0.022144999999999998
+Min. score: -0.76802
+Max. score: 0.85288
+
+Method: WGAN-GP
+# of sequences: 9885
+Average score: -0.012485846231663822
+Std score: 0.17713300613408775
+Median score: -0.00153
+Min. score: -0.68182
+Max. score: 0.56412
+
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+# of sequences: 1123
+Average score: 0.04798975066785387
+Std score: 0.165870936059707
+Median score: 0.04266
+Min. score: -0.54188
+Max. score: 0.51014
+
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor_best
+# of sequences: 1246
+Average score: 0.08573169341894055
+Std score: 0.1648192877654918
+Median score: 0.097145
+Min. score: -0.44041
+Max. score: 0.44662
+
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1
+Average score: 0.3543
+Std score: 0.0
+Median score: 0.3543
+Min. score: 0.3543
+Max. score: 0.3543
+
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_best
+# of sequences: 1708
+Average score: 0.3967227517564405
+Std score: 0.1658008945950438
+Median score: 0.36039
+Min. score: -0.0324
+Max. score: 1.06074
+
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1
+Average score: 0.3543
+Std score: 0.0
+Median score: 0.3543
+Min. score: 0.3543
+Max. score: 0.3543
+
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor_best
+# of sequences: 1677
+Average score: 0.3916452653548014
+Std score: 0.16595711194753648
+Median score: 0.36039
+Min. score: 0.0285
+Max. score: 0.9633
+
+Method: Goal-directed_WGAN-GP_Gamma0_25
+# of sequences: 9984
+Average score: 0.09897693810096157
+Std score: 0.16937491734312302
+Median score: 0.114275
+Min. score: -0.61179
+Max. score: 0.58287
+
+Method: Goal-directed_WGAN-GP_Gamma0_5
+# of sequences: 9919
+Average score: 0.08537104647645853
+Std score: 0.13654336658083135
+Median score: 0.09163
+Min. score: -0.46301
+Max. score: 0.51321
+
+Method: Goal-directed_WGAN-GP_Gamma0_75
+# of sequences: 8155
+Average score: 0.13965100551808562
+Std score: 0.09493789435620034
+Median score: 0.14932
+Min. score: -0.35636
+Max. score: 0.45017
+
+Method: Goal-directed_WGAN-GP
+# of sequences: 7751
+Average score: 0.19714225390271828
+Std score: 0.12064766928060186
+Median score: 0.18786
+Min. score: -0.32026
+Max. score: 0.56237
+
+Method: Goal-directed_WGAN-GP_ORGAN
+# of sequences: 9923
+Average score: 0.1282693923208708
+Std score: 0.14717700153035274
+Median score: 0.142
+Min. score: -0.6531
+Max. score: 0.54575
+
+Method: Goal-directed_WGAN-GP_noRewardNet
+# of sequences: 9959
+Average score: -0.06849064665127003
+Std score: 0.20309723795836185
+Median score: -0.06272
+Min. score: -0.77449
+Max. score: 0.48965
+
+Method: Goal-directed_WGAN-GP_noSscale
+# of sequences: 9967
+Average score: 0.026113460419383776
+Std score: 0.18731916312855748
+Median score: 0.04449
+Min. score: -0.83648
+Max. score: 0.50929
+
+Method: Goal-directed_WGAN-GP_NoSwithORGAN
+# of sequences: 16
+Average score: 0.16066875
+Std score: 0.04640548080170595
+Median score: 0.1625
+Min. score: 0.07344
+Max. score: 0.25764
+
+Method: Goal-directed_WGAN-GP_LSTM
+# of sequences: 7193
+Average score: 0.0856973376894211
+Std score: 0.07569629391385059
+Median score: 0.08424
+Min. score: -0.195
+Max. score: 0.36067
+
+Method: Goal-directed_WGAN-GP_ORGAN_LSTM
+# of sequences: 9976
+Average score: 0.08969386627907013
+Std score: 0.14779054624155724
+Median score: 0.10248
+Min. score: -0.57193
+Max. score: 0.53715
+
+Method: Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2
+# of sequences: 9981
+Average score: 0.02238475002504762
+Std score: 0.1894640149074894
+Median score: 0.03585
+Min. score: -0.81935
+Max. score: 0.64881
+
+Method: Goal-directed_WGAN-GP_TransformerNoMaskL2
+# of sequences: 7626
+Average score: 0.20078090348806926
+Std score: 0.1171620970187141
+Median score: 0.19202
+Min. score: -0.29116
+Max. score: 0.54704

@@ -1,0 +1,5 @@
+outdir is ../../result/Goal-directed_WGAN-GP_LSTM/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_NoSwithORGAN/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_LSTM/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2/epoch1000
+outdir is ../../result/Goal-directed_WGAN-GP_TransformerNoMaskL2/epoch1000

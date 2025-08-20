@@ -1,0 +1,30 @@
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:167: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:167: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:167: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:236: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:236: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Stats_MolGAN_Best/6_IC50_compare.py:236: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+
+NetMHCpan 4.0
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 589
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+
+
+NetMHCpan 4.1
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 597
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0

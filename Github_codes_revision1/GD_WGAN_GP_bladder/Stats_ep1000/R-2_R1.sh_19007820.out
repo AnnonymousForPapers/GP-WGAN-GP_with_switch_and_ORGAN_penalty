@@ -1,0 +1,48 @@
+/home/ych22001/GD_WGAN_GP_R1/code/Figures_in_paper/2_Remove_placeholder_morethan2_R1.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP_R1/code/Figures_in_paper/2_Remove_placeholder_morethan2_R1.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+/home/ych22001/GD_WGAN_GP_R1/code/Figures_in_paper/2_Remove_placeholder_morethan2_R1.py:35: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  Bladder_out['peptide'] = Bladder_rmv['peptide'].str.replace('-', '')
+Method: Goal-directed_WGAN-GP_LSTM
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 7193
+Number of unique peptide sequences before removing: 7193
+outdir is ../../result/Goal-directed_WGAN-GP_LSTM/epoch1000/
+Method: Goal-directed_WGAN-GP_NoSwithORGAN
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 16
+Number of unique peptide sequences before removing: 16
+outdir is ../../result/Goal-directed_WGAN-GP_NoSwithORGAN/epoch1000/
+Method: Goal-directed_WGAN-GP_ORGAN_LSTM
+Number of peptide sequences with 9 and 10 mers: 9979
+Number of unique peptide sequences: 9976
+Number of unique peptide sequences before removing: 9997
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_LSTM/epoch1000/
+Method: Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2
+Number of peptide sequences with 9 and 10 mers: 9981
+Number of unique peptide sequences: 9981
+Number of unique peptide sequences before removing: 10000
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2/epoch1000/
+Method: Goal-directed_WGAN-GP_TransformerNoMaskL2
+Number of peptide sequences with 9 and 10 mers: 9998
+Number of unique peptide sequences: 7626
+Number of unique peptide sequences before removing: 7628
+outdir is ../../result/Goal-directed_WGAN-GP_TransformerNoMaskL2/epoch1000/
+Method: random_generator
+Number of peptide sequences with 9 and 10 mers: 10000
+Number of unique peptide sequences: 10000
+Number of unique peptide sequences before removing: 10000
+outdir is ../../result/random_generator/epoch1000/

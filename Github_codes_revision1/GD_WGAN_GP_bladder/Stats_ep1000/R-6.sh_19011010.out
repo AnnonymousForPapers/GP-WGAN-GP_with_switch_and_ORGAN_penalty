@@ -1,0 +1,96 @@
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:173: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:210: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(constrained_layout=True, figsize=(12,5))
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+/home/ych22001/GD_WGAN_GP/code/Figures_in_paper/6_IC50_compare.py:242: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+
+
+NetMHCpan 4.0
+Method: Goal-directed_WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 5078
+Method: WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 6761
+Method: Goal-directed_WGAN-GP_Gamma0_25
+Number of peptide sequences with IC$_50$ < 500: 7764
+Method: Goal-directed_WGAN-GP_Gamma0_5
+Number of peptide sequences with IC$_50$ < 500: 7848
+Method: Goal-directed_WGAN-GP_Gamma0_75
+Number of peptide sequences with IC$_50$ < 500: 6213
+Method: Goal-directed_WGAN-GP_noRewardNet
+Number of peptide sequences with IC$_50$ < 500: 7967
+Method: Goal-directed_WGAN-GP_noSscale
+Number of peptide sequences with IC$_50$ < 500: 5684
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 343
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: Goal-directed_WGAN-GP_ORGAN
+Number of peptide sequences with IC$_50$ < 500: 9051
+
+
+NetMHCpan 4.1
+Method: Goal-directed_WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 5031
+Method: WGAN-GP
+Number of peptide sequences with IC$_50$ < 500: 6805
+Method: Goal-directed_WGAN-GP_Gamma0_25
+Number of peptide sequences with IC$_50$ < 500: 7761
+Method: Goal-directed_WGAN-GP_Gamma0_5
+Number of peptide sequences with IC$_50$ < 500: 7805
+Method: Goal-directed_WGAN-GP_Gamma0_75
+Number of peptide sequences with IC$_50$ < 500: 6162
+Method: Goal-directed_WGAN-GP_noRewardNet
+Number of peptide sequences with IC$_50$ < 500: 8040
+Method: Goal-directed_WGAN-GP_noSscale
+Number of peptide sequences with IC$_50$ < 500: 5724
+Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 355
+Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+Number of peptide sequences with IC$_50$ < 500: 0
+Method: Goal-directed_WGAN-GP_ORGAN
+Number of peptide sequences with IC$_50$ < 500: 9031

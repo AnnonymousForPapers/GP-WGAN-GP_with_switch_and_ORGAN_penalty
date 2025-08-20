@@ -1,0 +1,79 @@
+2025-08-18 00:30:55.928938: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-18 00:31:32.250464: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+outdir is ../../result/GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor/epoch1000/
+ 1/39 [..............................] - ETA: 5s39/39 [==============================] - ETA: 0s39/39 [==============================] - 0s 1ms/step
+
+ Method: GD_WGAN_wclip_MolGAN_DScalar_Loss_MyPredictor
+# of sequences: 1246
+Average score: 0.732925295829773
+Std score: 0.09018369019031525
+Median score: 0.7404414415359497
+Min. score: 0.3611852526664734
+Max. score: 0.9103714227676392
+outdir is ../../result/GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+ 1/54 [..............................] - ETA: 1s40/54 [=====================>........] - ETA: 0s54/54 [==============================] - 0s 1ms/step
+
+ Method: GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1708
+Average score: 0.731133759021759
+Std score: 0.08285850286483765
+Median score: 0.7354077100753784
+Min. score: 0.41444751620292664
+Max. score: 0.9113951325416565
+outdir is ../../result/GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor/epoch1000/
+ 1/53 [..............................] - ETA: 1s40/53 [=====================>........] - ETA: 0s53/53 [==============================] - 0s 1ms/step
+
+ Method: GD_WGAN_wclip_OR_MolGAN_Gamma0_DScalar_Loss_MyPredictor
+# of sequences: 1677
+Average score: 0.729271411895752
+Std score: 0.08287622034549713
+Median score: 0.7323135137557983
+Min. score: 0.3862747251987457
+Max. score: 0.912578284740448
+WARNING:tensorflow:Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.iter
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.beta_1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.beta_2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.decay
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.learning_rate
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-2.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-2.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-3.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-3.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-6.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-6.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-7.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-7.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-8.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-8.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-9.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-9.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-2.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-2.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-3.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-3.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-6.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-6.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-7.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-7.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-8.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-8.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-9.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-9.bias

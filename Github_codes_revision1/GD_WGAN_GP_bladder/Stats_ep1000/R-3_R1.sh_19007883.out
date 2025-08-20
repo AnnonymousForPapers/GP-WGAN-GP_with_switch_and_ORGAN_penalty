@@ -1,0 +1,109 @@
+2025-08-18 02:30:14.674445: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-18 02:30:24.709136: I tensorflow/core/common_runtime/process_util.cc:146] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+outdir is ../../result/Goal-directed_WGAN-GP_LSTM/epoch1000/
+  1/225 [..............................] - ETA: 32s 40/225 [====>.........................] - ETA: 0s  81/225 [=========>....................] - ETA: 0s122/225 [===============>..............] - ETA: 0s163/225 [====================>.........] - ETA: 0s204/225 [==========================>...] - ETA: 0s225/225 [==============================] - 0s 1ms/step
+
+ Method: Goal-directed_WGAN-GP_LSTM
+# of sequences: 7193
+Average score: 0.9275995492935181
+Std score: 0.05234355479478836
+Median score: 0.9464622735977173
+Min. score: 0.5531505346298218
+Max. score: 0.9813809990882874
+outdir is ../../result/Goal-directed_WGAN-GP_NoSwithORGAN/epoch1000/
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 18ms/step
+
+ Method: Goal-directed_WGAN-GP_NoSwithORGAN
+# of sequences: 16
+Average score: 0.9076504111289978
+Std score: 0.02827673964202404
+Median score: 0.9145365953445435
+Min. score: 0.8330674767494202
+Max. score: 0.9503253698348999
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_LSTM/epoch1000/
+  1/312 [..............................] - ETA: 4s 40/312 [==>...........................] - ETA: 0s 80/312 [======>.......................] - ETA: 0s120/312 [==========>...................] - ETA: 0s160/312 [==============>...............] - ETA: 0s200/312 [==================>...........] - ETA: 0s240/312 [======================>.......] - ETA: 0s277/312 [=========================>....] - ETA: 0s312/312 [==============================] - 0s 1ms/step
+
+ Method: Goal-directed_WGAN-GP_ORGAN_LSTM
+# of sequences: 9976
+Average score: 0.737050473690033
+Std score: 0.10305244475603104
+Median score: 0.7496411800384521
+Min. score: 0.26867783069610596
+Max. score: 0.959076464176178
+outdir is ../../result/Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2/epoch1000/
+  1/312 [..............................] - ETA: 5s 40/312 [==>...........................] - ETA: 0s 80/312 [======>.......................] - ETA: 0s120/312 [==========>...................] - ETA: 0s160/312 [==============>...............] - ETA: 0s200/312 [==================>...........] - ETA: 0s241/312 [======================>.......] - ETA: 0s281/312 [==========================>...] - ETA: 0s312/312 [==============================] - 0s 1ms/step
+
+ Method: Goal-directed_WGAN-GP_ORGAN_TransformerNoMaskL2
+# of sequences: 9981
+Average score: 0.611750602722168
+Std score: 0.11555080860853195
+Median score: 0.6154279708862305
+Min. score: 0.1906784176826477
+Max. score: 0.9421816468238831
+outdir is ../../result/Goal-directed_WGAN-GP_TransformerNoMaskL2/epoch1000/
+  1/239 [..............................] - ETA: 3s 41/239 [====>.........................] - ETA: 0s 57/239 [======>.......................] - ETA: 0s 89/239 [==========>...................] - ETA: 0s124/239 [==============>...............] - ETA: 0s163/239 [===================>..........] - ETA: 0s202/239 [========================>.....] - ETA: 0s239/239 [==============================] - ETA: 0s239/239 [==============================] - 0s 2ms/step
+
+ Method: Goal-directed_WGAN-GP_TransformerNoMaskL2
+# of sequences: 7626
+Average score: 0.9484243988990784
+Std score: 0.03175947070121765
+Median score: 0.9583851099014282
+Min. score: 0.5938569903373718
+Max. score: 0.9821003079414368
+outdir is ../../result/random_generator/epoch1000/
+  1/313 [..............................] - ETA: 5s 41/313 [==>...........................] - ETA: 0s 81/313 [======>.......................] - ETA: 0s121/313 [==========>...................] - ETA: 0s160/313 [==============>...............] - ETA: 0s200/313 [==================>...........] - ETA: 0s240/313 [======================>.......] - ETA: 0s280/313 [=========================>....] - ETA: 0s313/313 [==============================] - 0s 1ms/step
+
+ Method: random_generator
+# of sequences: 10000
+Average score: 0.5175837874412537
+Std score: 0.1231856644153595
+Median score: 0.5180294513702393
+Min. score: 0.14730799198150635
+Max. score: 0.9230458736419678
+WARNING:tensorflow:Detecting that an object or model or tf.train.Checkpoint is being deleted with unrestored values. See the following logs for the specific values in question. To silence these warnings, use `status.expect_partial()`. See https://www.tensorflow.org/api_docs/python/tf/train/Checkpoint#restorefor details about the status object returned by the restore function.
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.iter
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.beta_1
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.beta_2
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.decay
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer.learning_rate
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-2.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-2.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-3.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-3.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-6.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-6.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-7.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-7.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-8.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-8.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-9.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'm' for (root).layer_with_weights-9.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-0.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-0.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-1.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-1.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-2.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-2.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-3.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-3.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-4.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-4.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-5.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-5.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-6.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-6.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-7.gamma
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-7.beta
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-8.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-8.bias
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-9.kernel
+WARNING:tensorflow:Value in checkpoint could not be found in the restored object: (root).optimizer's state 'v' for (root).layer_with_weights-9.bias
