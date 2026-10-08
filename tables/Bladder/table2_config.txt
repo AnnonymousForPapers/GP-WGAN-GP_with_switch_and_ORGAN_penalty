@@ -1,0 +1,13 @@
+COLUMNS=iedb_immunogenicity,netmhcpan41_binder_pct,pepmatch_exact_count,pepmatch_1_mismatch_count,pepsysco
+
+# enabled | displayed name | result-folder pattern | checkpoint | optional out glob
+1 | WGAN-GP | WGAN-GP_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0.5$) | GD_WGAN_wclip_MolGAN050_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0.5$) | GD_WGAN_wclip_MolGAN050_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0$) | GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0$) | GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0$) with ORGAN | GD_WGAN_wclip_OR_PlusOne_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0$) with ORGAN | GD_WGAN_wclip_OR_PlusOne_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+1 | GD-WGAN-GP ($\gamma_{max}=0.25$) | Goal-directed_WGAN-GP_Gamma0_25_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=1$) | Goal-directed_WGAN-GP_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with ORGAN | Goal-directed_WGAN-GP_ORGAN_PlusOne_FixPad_seed{seed} | last |

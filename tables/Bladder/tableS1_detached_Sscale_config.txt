@@ -1,0 +1,14 @@
+COLUMNS=deepimmuno,netmhcpan40_binder_pct,non_repeated_pct,training_time_min
+
+# enabled | displayed name | result-folder pattern | checkpoint | optional out glob
+1 | Bladder dataset | bladder_dataset | last |
+1 | random_generator | WGAN-GP_FixPad_seed{seed} | last |
+1 | WGAN-GP | WGAN-GP_FixPad_seed{seed} | last |
+# GD-WGAN-GP main
+1 | GD-WGAN-GP ($\gamma_{max}=0.25$) | Goal-directed_WGAN-GP_Gamma0_25_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=1$) | Goal-directed_WGAN-GP_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with ORGAN | Goal-directed_WGAN-GP_ORGAN_PlusOne_FixPad_seed{seed} | last |
+# GD-WGAN-GP effect
+1 | GD-WGAN-GP ($\gamma_{max}=0.25$) and detached $S_{scale}$ | Goal-directed_WGAN-GP_Gamma0_25_FixPad_detached_Sscale_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=1$) and detached $S_{scale}$ | Goal-directed_WGAN-GP_FixPad_detached_Sscale_seed{seed} | last |
+1 | GD-WGAN-GP with ORGAN and detached $S_{scale}$ | Goal-directed_WGAN-GP_ORGAN_PlusOne_FixPad_detached_Sscale_seed{seed} | last |

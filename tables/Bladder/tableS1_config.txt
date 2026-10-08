@@ -1,0 +1,39 @@
+COLUMNS=deepimmuno,netmhcpan40_binder_pct,non_repeated_pct,training_time_min
+
+# enabled | displayed name | result-folder pattern | checkpoint | optional out glob
+1 | Bladder dataset | bladder_dataset | last |
+1 | random_generator | WGAN-GP_FixPad_seed{seed} | last |
+1 | WGAN-GP | WGAN-GP_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0.5$) | GD_WGAN_wclip_MolGAN050_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0.5$) | GD_WGAN_wclip_MolGAN050_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0$) | GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0$) | GD_WGAN_wclip_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+1 | MolGAN\textsuperscript{last} ($\lambda_M=0$) with ORGAN | GD_WGAN_wclip_OR_PlusOne_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | last |
+1 | MolGAN\textsuperscript{best} ($\lambda_M=0$) with ORGAN | GD_WGAN_wclip_OR_PlusOne_MolGAN_Gamma0_DScalar_Loss_MyPredictor_FixPad_seed{seed} | best |
+# PepINVENT
+1 | PepINVENT\textsuperscript{best} (DeepImmuno direct) | PepINVENT_DeepImmuno_direct_seed{seed} | best |
+1 | PepINVENT\textsuperscript{last} (DeepImmuno direct) | PepINVENT_DeepImmuno_direct_seed{seed} | last |
+1 | PepINVENT\textsuperscript{best} (DeepImmuno with scorer) | PepINVENT_DeepImmuno_with_scorer_seed{seed} | best |
+1 | PepINVENT\textsuperscript{last} (DeepImmuno with scorer) | PepINVENT_DeepImmuno_with_scorer_seed{seed} | last |
+# GD-WGAN-GP main
+1 | GD-WGAN-GP ($\gamma_{max}=0.25$) | Goal-directed_WGAN-GP_Gamma0_25_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=0.5$) | Goal-directed_WGAN-GP_Gamma0_5_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=0.75$) | Goal-directed_WGAN-GP_Gamma0_75_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=1$) | Goal-directed_WGAN-GP_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with ORGAN | Goal-directed_WGAN-GP_ORGAN_PlusOne_FixPad_seed{seed} | last |
+# GD-WGAN-GP effect
+1 | GD-WGAN-GP ($\gamma_{max}=1$) with Direct DeepImmuno Scoring | Goal-directed_WGAN-GP_noRewardNet_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP ($\gamma_{max}=1$ and $S_{scale}=1$) | Goal-directed_WGAN-GP_noSscale_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP without switch and ORGAN | Goal-directed_WGAN-GP_NoSwithORGAN_FixPad_seed{seed} | last |
+# GD-WGAN-GP models
+1 | GD-WGAN-GP with ORGAN and LSTM | Goal-directed_WGAN-GP_ORGAN_PlusOne_LSTM_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with ORGAN and Transformer | Goal-directed_WGAN-GP_ORGAN_PlusOne_TransformerNoMaskL2_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with switch ($\gamma_{max}=0.25$) and LSTM | Goal-directed_WGAN-GP_Switching_Gamma0_25_LSTM_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with switch ($\gamma_{max}=0.25$) and Transformer | Goal-directed_WGAN-GP_Switching_Gamma0_25_TransformerNoMaskL2_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with switch ($\gamma_{max}=1$) and LSTM | Goal-directed_WGAN-GP_Switching_Gamma1_LSTM_FixPad_seed{seed} | last |
+1 | GD-WGAN-GP with switch ($\gamma_{max}=1$) and Transformer | Goal-directed_WGAN-GP_Switching_Gamma1_TransformerNoMaskL2_FixPad_seed{seed} | last |
+# D3PM + GD-WGAN-GP
+1 | D3PM without reward | D3PM_NoReward_AttachedTransformer_seed{seed} | last |
+1 | D3PM with ORGAN | D3PM_ORGAN_PlusOne_AttachedTransformer_seed{seed} | last |
+1 | D3PM with switch ($\gamma_{max}=0.25$) | D3PM_ORGAN_Switching_Gamma0_25_AttachedTransformer_seed{seed} | last |
+1 | D3PM with switch ($\gamma_{max}=1$) | D3PM_ORGAN_Switching_Gamma1_0_AttachedTransformer_seed{seed} | last |
