@@ -60,13 +60,13 @@ Training is performed for 1,000 epochs unless otherwise specified. For models wi
 
 The checkpoint score is
 
-\[
+```math
 \text{checkpoint score}
 =
 \text{mean predicted immunogenicity}
 +
 \text{unique peptide ratio}.
-\]
+```
 
 The checkpoint with the highest score is saved as `model_best.pth`, and the generator after the final training epoch is saved as `model_last.pth`. PepINVENT checkpoints use the corresponding `.chkpt` extension.
 
